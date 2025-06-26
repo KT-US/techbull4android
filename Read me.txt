@@ -1,0 +1,115 @@
+								TECH BULL
+
+Reason for naming convention: Tech Bull ( bull is the symbol of power)
+I developed this tool not only for android studio. i developed this tool for WINDOW, LINUX, MACOS and Android devices. The usage of this tool is very simple and easy.
+
+Reason of developing this tools:
+
+i found a lot gaps in other tools (other tools like Android RAT, Metasploit etc) while developing this tool. For example, mostly hacking tools are only use on Linux OS like Kali Linux, Ubuntu etc. One of other reason of developing this tools is that, i also want to teach the window simple user (how don't know how a virus, spyware) will harm their system. That's way i make its usage as simple as i can.
+
+there are two side of this payload.
+1) first one the server side 
+2) second one is the client side.
+
+server side functionality:
+
+there are two control box for server side.
+
+First control box: is to control the number of connected user. Means to say that, to whom you want to send command. 
+Second control box: where you can send command to a specific user.
+
+
+Tool requirement:
+
+
+
+
+
+
+First control box functionality:
+
+Press 0 for Terminating server
+Press 1 for checking available commands
+Press 2 for checking available clients
+Press 3 for selecting a specific clients
+Press 4 for Connected user History
+Press 5 for checking server side Current Working Dir
+Press 6 for change Dir from server side
+Press 7 for checking list of Dir in Current working dir
+
+Second control box functionality:
+
+Type 0 for helping commands box for specific client
+Type 1 for terminating specific user
+Type 2 for Operating System information
+Type 3 for Current working Dir 
+Type 4 for list of Directories in current working Dir
+Type 5 for Change Dir
+Type 6 for Root Dir 
+Type 7 for Traverse Dir 
+Type 8 for Searching Dir or file by name
+Type 9 for Searching file by Extension 
+Type 10 for Downloading file from client side 
+
+	Downloading file sub-functionality:
+
+ 		Press 1: if you Know the Exact file name with Extension
+        	Press 2: if you want to download all files with same/specific extension
+
+
+
+Type 11 for Video calling, Audio calling, image capturing etc:
+		
+	Camera capturing sub-functionality:
+
+		Type 1 for check number of client camera
+    		Type 2 for Capture a Picture
+    		Type 3 for video live Streaming
+    		Type 4 for terminating Camera Functionality
+    		Type 5 for audio/mice live Streaming
+    		Type 6 for screen shot
+
+
+
+
+Type 12 for Searching and Delete Dir or file by name
+Type 13 for Searching and Delete file by Extension 
+Type 14 for Hiding app Launching icon
+Type 15 for Un-Hiding app Launching icon
+
+Type 16 for Upload data on client side
+
+		Data from server side to client side uploading sub-functionality:
+
+			Type 0 for command helping box
+   			Type 1 for checking server side Current Working Dir 
+   			Type 2 for change Dir from server side 
+    			Type 3 for checking list of Dir in Current working dir  
+    			Type 4 for Uploading a Specific file:  
+    			Type 5 for Uploading all files with same extension: like .jpg .png .txt .mp3 .mp4 etc from your current working dir 
+    			Type 6 for App version checking and updating:  
+    			Type 7 for current app version  
+    			Type 8 for terminating data uploading Process. with terminating it you can not go back:  
+
+
+AES algo:
+
+when server side and client side make the connection between them then there is P2P connection. Mostly data is secure while it is moving form (server side to client side or from client side to server side) . i use AES Algo for data encryption and decryption.
+
+
+📜 Disclaimer
+This tool has been developed strictly for educational purposes, authorized penetration testing, and remote administration of devices you own or have explicit permission to control.
+
+Misuse of this tool is strictly prohibited.
+The developer is not responsible for any damages, legal consequences, or unethical use of this software.
+
+By using this tool, you agree that:
+
+You will not use it to access, control, or damage any device or network without explicit authorization.
+
+You assume full responsibility for any actions taken using this tool.
+
+You comply with all local, national, and international laws.
+
+
+
